@@ -1,0 +1,12 @@
+{
+  "name": "propel-container-agent",
+  "version": "1.0.0",
+  "description": "In-container agent for PropelCode - handles terminal, file system, and exec",
+  "main": "server.js",
+  "dependencies": {
+    "ws": "^8.16.0",
+    "node-pty": "^1.0.0",
+    "express": "^4.18.2",
+    "chokidar": "^3.5.3"
+  }
+}
